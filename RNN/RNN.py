@@ -2,7 +2,7 @@
 import tensorflow as tf
 import random as rn
 import numpy as np
-import os
+import osp
 os.environ['PYTHONHASHSEED'] = '0'
 # Setting the seed for numpy-generated random numbers
 np.random.seed(45)
