@@ -9,4 +9,4 @@ Note that the code you obtain from these steps is only valid for 10 min! This is
 3. Grab the string after `code=` and copy it into the `return_code` variable in spotify_auth.js
 4. Run `node spotify_auth.js` again and copy and run the full curl command in terminal
 5. This should return a JSON object with a token. Copy this token into the `token` variable in spotify_api.js
-6. Run `node spotify_api.js` and the return value will be the names of the top 50 songs that you would have listened to.
+6. Run `node spotify_api.js` and the return value will be the names of the top 50 songs that you would have listened to. There's a lot of data available that Spotify provides, check out https://developer.spotify.com/documentation/web-api/reference/player/get-recently-played/ 
